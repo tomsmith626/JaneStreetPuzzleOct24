@@ -4,8 +4,8 @@ import csv
 
 # set maximum path to 3rd parameter arbitratily to prevent huge running time
 """THESE ARE IN THE FORMAT [COLUMN, ROW]"""
-a1tof6Paths, a1tof6VisitedCells = knightPaths([0,0],[5,5],12)
-a6tof1Paths, a6tof1VisitedCells = knightPaths([5,0],[0,5],12)
+a1tof6Paths, a1tof6VisitedCells = knightPaths([0,0],[5,5],20)
+a6tof1Paths, a6tof1VisitedCells = knightPaths([5,0],[0,5],20)
 
 # a1 to f6 
 with open('a1tof6AllRoutes.csv', 'w+') as f:
